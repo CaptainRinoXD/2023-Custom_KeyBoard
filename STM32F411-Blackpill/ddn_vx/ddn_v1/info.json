@@ -1,0 +1,42 @@
+{
+    "manufacturer": "CaptainRinoXD",
+    "keyboard_name": "ddn_v1",
+    "maintainer": "CaptainRinoXD",
+    "bootloader": "stm32-dfu",
+	"board": "BLACKPILL_STM32_F411",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": false,
+        "mousekey": false,
+        "extrakey": true,
+        "console": false,
+        "command": false,
+        "nkro": false,
+        "backlight": false,
+        "rgblight": false,
+        "audio": false,
+        "key_lock": false
+    },
+    "matrix_pins": {
+        "rows": ["B3", "B4"],
+        "cols": ["B5", "B6", "B7"]
+    },
+    "processor": "STM32F411",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0xDB00",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"1", "x":0, "y":0}, 
+                {"label":"2", "x":0, "y":1}, 
+                {"label":"3", "x":1, "y":0}, 
+                {"label":"4", "x":1, "y":1}, 
+                {"label":"5", "x":2, "y":1}
+            ]
+        }
+    }
+}
