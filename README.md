@@ -28,7 +28,7 @@ git remote add origin https://github.com/CaptainRinoXD/*****.git
 ```
 git push -u origin master
 ```
-8. Git crash course: https://www.youtube.com/watch?v=SWYqp7iY_Tc
+8. Git crash course: https://www.youtube.com/watch?v=SWYqp7iY_Tc  https://www.youtube.com/watch?v=qMck70tLDuo&t=620s
 
 
 
@@ -50,9 +50,13 @@ git commit -m "second commit"
 ```
 git push
 ```
-Create a repo on github
-set a remote
-Add your github credentials
 
-git pull - Pull latest changes from remote repository
-git clone - Clone repo from github
+* Create a repo on github
+* set a remote
+* Add your github credentials
+
+* git pull - Pull latest changes from remote repository
+* git clone - Clone repo from github
+
+# More information writing on Github
+https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables
