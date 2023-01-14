@@ -12,16 +12,14 @@ git int
 ```
 git status
 ```
-4. git add <file> - adds files and folders to the staging area - example:
+4. git add <file> - adds files and folders to the staging area - note: adding all file in the local machine. If any file-changes happened after "git add ." you need to re-add by using "git add .":
 ```
 git add .
 ``` 
-	note: adding all file in the local machine. If any file-changes happened after "git add ." you need to re-add by using "git add ."
-5. git commit - commits files in staging area to local repository
+5. git commit - commits files in staging area to local repository -note: commit to add all the file
 ```
 example: git commit -m "Your custome note"
 ```
-	note: commit to add all the file
 6. git remote add origin <repo url> -  adding the repository url
 ```
 git remote add origin https://github.com/CaptainRinoXD/*****.git
@@ -30,7 +28,6 @@ git remote add origin https://github.com/CaptainRinoXD/*****.git
 ```
 git push -u origin master
 ```
-	note: For further understand, take a look at config file in .git folder(hidden)
 8. Git crash course: https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 
