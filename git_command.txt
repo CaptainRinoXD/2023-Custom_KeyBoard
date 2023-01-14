@@ -1,0 +1,17 @@
+git init - Initialize local a new repository
+git status -shows what you have in you staging area
+git add <file> - adds files and folders to the staging area
+	example: git add . /adding all file in the local machine/
+	note: if any file-changes happened after "git add ." you need to re-add by using "git add ."
+git commit - commits files in staging area to local repository
+	example: git commit -m "Your custome note" /commit to add all the file/
+git remote add origin <repo url> -  adding the repository url
+git push -u origin <branch name>
+	example: git push -u origin master /the repo brand is master/
+
+Create a repo on github
+set a remote
+Add your github credentials
+
+git pull - Pull latest changes from remote repository
+git clone - Clone repo from github
