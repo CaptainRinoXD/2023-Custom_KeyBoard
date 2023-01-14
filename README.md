@@ -15,8 +15,8 @@ For further question, please seek help at r/olkb and QMK Oficall Discord.
     (commit to add all the file)
 6. git remote add origin <repo url> -  adding the repository url
 7. git push -u origin <branch name> example: 
-	
-	git push -u origin master 
+
+    git push -u origin master 
 
     (the repo brand is master)- to understand more open config in .git folder (hidden)
 8. Git crash course: https://www.youtube.com/watch?v=SWYqp7iY_Tc
