@@ -5,8 +5,8 @@ Your keyboard should be located in qmk_firmware/keyboards/ and the folder name s
 * config.h
 * rules.mk
 * <keyboard_name>.c
-* <keyboard_name>.h
-To make QMK automatic adding these file for you, follow this [instruction](https://docs.qmk.fm/#/cli_commands?id=qmk-new-keyboard):
+* <keyboard_name>.h  
+To make QMK automatically adding these file for you, follow this [instruction](https://docs.qmk.fm/#/cli_commands?id=qmk-new-keyboard):
 ```
 qmk new-keyboard
 ```
