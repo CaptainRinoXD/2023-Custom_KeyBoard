@@ -10,7 +10,7 @@ To make QMK automatically adding these file for you, follow this [instruction](h
 ```
 qmk new-keyboard
 ```
-Then just follow the promt to finish creating new keyboard. The new-keyboard gonna be included with _readme.md, info.json, config.h, rules.mk_ and a default folder with _keymap.c_. Your next step is to manually adding _<keyboard_name>.c_ and _<keyboard_name>.h_.
+Then just follow the promt to finish creating new keyboard. The new-keyboard gonna be included with `readme.md`, `info.json`, `config.h`, `rules.mk` and a default folder with `keymap.c`. Your next step is to manually adding `<keyboard_name>.c` and `<keyboard_name>.h`.
 # readme.md
 This file is for guest and even for maker to explain his/her firmware, or to documents the journey.
 # info.json 
