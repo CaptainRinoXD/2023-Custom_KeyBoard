@@ -33,7 +33,7 @@ This file is used by the [QMK API](https://github.com/qmk/qmk_api). It contains 
         "vid": "0xFEED"
 },
 ```
-* matrix_pins can be listed in **info.json** or be defined in **config.h** but cannot be in both
+* matrix_pins can be listed in **info.json** or be defined in **config.h** but `cannot be in both`
 ```json
 "matrix_pins": {
         "rows": ["B3", "B4"],
@@ -56,3 +56,4 @@ This file is used by the [QMK API](https://github.com/qmk/qmk_api). It contains 
     }
 }
 ```
+
