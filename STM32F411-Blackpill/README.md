@@ -31,28 +31,28 @@ This file is used by the [QMK API](https://github.com/qmk/qmk_api). It contains 
         "device_version": "1.0.0",
         "pid": "0xDB00",
         "vid": "0xFEED"
-    },
+},
 ```
 * matrix_pins can be listed in **info.json** or be defined in **config.h** but cannot be in both
 ```json
-    "matrix_pins": {
+"matrix_pins": {
         "rows": ["B3", "B4"],
         "cols": ["B5", "B6", "B7"]
-    }
+},
 ```
 * Layout also need to be refrenced in this file, the format for the layout are:
     - x : **Required**. The absolute position of the key in the horizontal axis, in Key Units.
     - y : **Required**. The absolute position of the key in the vertical axis, in Key Units.
 ```json
-    "layouts": {
-        "LAYOUT": {
-            "layout": [
-                {"label":"1", "x":0, "y":0}, 
-                {"label":"2", "x":0, "y":1}, 
-                {"label":"3", "x":1, "y":0}, 
-                {"label":"4", "x":1, "y":1}, 
-                {"label":"5", "x":2, "y":1}
-            ]
-        }
+"layouts": {
+    "LAYOUT": {
+        "layout": [
+            {"label":"1", "x":0, "y":0}, 
+            {"label":"2", "x":0, "y":1}, 
+            {"label":"3", "x":1, "y":0}, 
+            {"label":"4", "x":1, "y":1}, 
+            {"label":"5", "x":2, "y":1}
+        ]
     }
+}
 ```
