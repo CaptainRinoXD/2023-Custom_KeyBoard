@@ -17,7 +17,7 @@ This file is for guest and even for maker to explain his/her firmware, or to doc
 # info.json 
 This file is used by the [QMK API](https://github.com/qmk/qmk_api). It contains the information QMK Configurator needs to display a representation of your keyboard. You can also set metadata here. For more information see the [REFERENCE PAGE](https://docs.qmk.fm/#/reference_info_json).
 * Seven thing has been listed here have to be in the top line of info.json for QMK:
-```
+```json
     "manufacturer": "CaptainRinoXD",
     "keyboard_name": "ddn_v1",
     "maintainer": "CaptainRinoXD",
