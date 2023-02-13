@@ -13,6 +13,7 @@ qmk new-keyboard
 Then just follow the promt to finish creating new keyboard. The new-keyboard gonna be included with `readme.md`, `info.json`, `config.h`, `rules.mk` and a default folder with `keymap.c`. Your next step is to manually adding `<keyboard_name>.c` and `<keyboard_name>.h`.
 # readme.md
 This file is for guest and even for maker to explain his/her firmware, or to documents the journey.
+
 # info.json 
 This file is used by the [QMK API](https://github.com/qmk/qmk_api). It contains the information QMK Configurator needs to display a representation of your keyboard. You can also set metadata here. For more information see the [REFERENCE PAGE](https://docs.qmk.fm/#/reference_info_json).
 * Seven thing has been listed here have to be in the top line of info.json for QMK:
@@ -56,4 +57,18 @@ This file is used by the [QMK API](https://github.com/qmk/qmk_api). It contains 
     }
 }
 ```
+
+# config.h
+In the newer version of QMK, most of the important stuff have been listed in `info.json`. Most docs can be found here: [The_config.h_File](https://docs.qmk.fm/#/config_options?id=the-configh-file)
+* Most be included: 
+```h
+#include "config_common.h"
+#define MATRIX_ROWS 2
+#define MATRIX_COLS 3
+```
+
+# rule.mk
+When you use the `qmk new-keyboard` in qmk mysys, the `rule.mk` will be automatically be added for you based on what you tell the programs. More information can be found [The_rules.mk_File](https://docs.qmk.fm/#/config_options?id=the-rulesmk-file).
+
+
 
