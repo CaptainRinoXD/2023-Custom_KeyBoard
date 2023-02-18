@@ -70,6 +70,6 @@ In the newer version of QMK, most of the important stuff have been listed in `in
 # rule.mk
 When you use the `qmk new-keyboard` in qmk mysys, the `rule.mk` will be automatically be added for you based on what you tell the programs. More information can be found [The_rules.mk_File](https://docs.qmk.fm/#/config_options?id=the-rulesmk-file).
 
-#
+##
 
 
