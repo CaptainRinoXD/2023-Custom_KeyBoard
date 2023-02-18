@@ -71,6 +71,10 @@ In the newer version of QMK, most of the important stuff have been listed in `in
 When you use the `qmk new-keyboard` in qmk mysys, the `rule.mk` will be automatically be added for you based on what you tell the programs. More information can be found [The_rules.mk_File](https://docs.qmk.fm/#/config_options?id=the-rulesmk-file).
 
 # <keyboard_name>.c
+This file is usually for you to link your custom matrix for your key board:
+```c
+#include ddn.h
+```
 # <keyboard_name>.h
 
 
