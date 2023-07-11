@@ -77,4 +77,5 @@ This file is usually for you to link your custom matrix for your key board:
 ```
 # <keyboard_name>.h
 
-
+# keymap.c
+Located in the `default` folder is the default file for declaring all the layout for your keyboard

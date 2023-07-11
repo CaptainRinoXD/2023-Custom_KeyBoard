@@ -1,0 +1,3 @@
+*.exe
+/QMK_MSYS
+/qmk_firmware
