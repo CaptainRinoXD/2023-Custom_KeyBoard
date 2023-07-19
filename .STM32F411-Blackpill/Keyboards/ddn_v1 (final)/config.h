@@ -1,8 +1,8 @@
 
 #pragma once
 /* key matrix size */
-#define MATRIX_ROWS 2
-#define MATRIX_COLS 3
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 15
 #define ENCODERS_PAD_A { B10 }
 #define ENCODERS_PAD_B { B2 }
 #define DIP_SWITCH_PINS { B1 }

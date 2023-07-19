@@ -18,8 +18,8 @@
         "key_lock": false
     },
     "matrix_pins": {
-        "rows": ["B3", "B4"],
-        "cols": ["B5", "B6", "B7"]
+        "rows": ["A8", "A9"],
+        "cols": ["A10", "B3", "B4"]
     },
     "processor": "STM32F411",
     "url": "",
@@ -31,10 +31,10 @@
     "layouts": {
         "LAYOUT": {
             "layout": [
-                {"label":"1", "x":0, "y":0}, 
-                {"label":"2", "x":0, "y":1}, 
-                {"label":"3", "x":1, "y":0}, 
-                {"label":"4", "x":1, "y":1}, 
+                {"label":"1", "x":0, "y":0},
+                {"label":"2", "x":0, "y":1},
+                {"label":"3", "x":1, "y":0},
+                {"label":"4", "x":1, "y":1},
                 {"label":"5", "x":2, "y":1}
             ]
         }
